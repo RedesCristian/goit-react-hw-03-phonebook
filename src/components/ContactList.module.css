@@ -1,0 +1,34 @@
+.listContainer {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contactItem {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactName {
+  font-weight: bold;
+  text-align: center;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.deleteButton:hover {
+  background-color: #e53935;
+}
